@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fitness App</string>
+    <string name="last_workout">Last Workout</string>
+    <string name="don_t_have_account_signup">Don\'t have an account? <b>SignUp</b></string>
+    <string name="have_account">Already have an account? <b>LogIn</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

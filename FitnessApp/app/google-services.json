@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "617652154512",
+    "firebase_url": "https://fitnessapp-diploms-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fitnessapp-diploms",
+    "storage_bucket": "fitnessapp-diploms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617652154512:android:928296a46c43d6991fa815",
+        "android_client_info": {
+          "package_name": "com.example.fitnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617652154512-dale2ihifo4t2t5ue017knd7k17ic55q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitnessapp",
+            "certificate_hash": "77261b00c656bd0c0520ee988c6668b4afda2cf5"
+          }
+        },
+        {
+          "client_id": "617652154512-q5dfimon0oa18a48oraf4pc88v8bguch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN01xGJKNcIk1v3Z_tZpwgcfGxvwk3Rvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617652154512-q5dfimon0oa18a48oraf4pc88v8bguch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

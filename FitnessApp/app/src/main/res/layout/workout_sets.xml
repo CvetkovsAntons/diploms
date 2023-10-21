@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:id="@+id/card_sets"
+    android:backgroundTint="@color/black"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/workout_exercises_sets_set"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="SET"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/workout_exercises_sets_reps"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@color/gray"
+                android:text="15"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:layout_marginEnd="10dp"
+                android:textAlignment="center"
+                android:padding="3dp"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REPS"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/workout_exercises_sets_weight"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@color/gray"
+                android:text="15"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:layout_marginEnd="10dp"
+                android:textAlignment="center"
+                android:padding="3dp"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/workout_exercises_kg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KG"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/workout_exercises_delete"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/white"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
